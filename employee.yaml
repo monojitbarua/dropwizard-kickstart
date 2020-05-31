@@ -1,0 +1,6 @@
+dbName: mongoDb
+
+server:
+  applicationConnectors: #registering the application soo that it will run on the http://localhost:3000
+    - type: http
+      port: 3000
